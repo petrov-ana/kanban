@@ -1,0 +1,25 @@
+@media (max-width: 480px){
+  .header__title{
+    display: none;
+  }
+  .footer{
+    display: none;
+  }
+  .header .wrapper{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .wrapper{
+    width: 90%;
+    height: 100%;
+    margin: 0 5px;
+  }
+  .main .wrapper{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .task-list{
+    width: 100%;
+  }
+}

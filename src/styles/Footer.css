@@ -1,0 +1,15 @@
+.footer{
+  background: #0067A3;
+}
+.footer .wrapper{
+  padding-left: 12px;
+  padding-right: 12px;
+  align-items: center;
+  height: 55px;
+  color:white
+}
+.footer__counter{
+  display: flex;  
+  justify-content: space-between;
+  width: 20%;
+}

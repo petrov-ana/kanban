@@ -1,0 +1,108 @@
+.main{
+  background: #0079BF;
+  height: 86vh;
+}
+.main .wrapper{
+  align-items: flex-start;
+}
+.task-list{
+  max-height: 90%;
+  height: auto;
+  width: 100%;
+  margin: 30px 10px;
+  padding: 12px 0px 12px 12px;
+  background: #EBECF0;
+  border-radius: 10px;
+}
+.task-list__title{
+  margin-bottom: 15px;
+}
+.task-list__descr{
+  max-height: 438px;
+  overflow-y: auto;
+}
+.task-list__descr::-webkit-scrollbar{
+  width: 12px;
+  height: 12px;
+  border-radius: 5px;
+  background-color: #CBCBCB;
+}
+.task-list__descr::-webkit-scrollbar-track {
+  background-color: #FFFFFF;
+}
+.task-list__descr::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #d1d1d3;
+}
+.task-list__task{
+  display: flex;
+  margin-bottom: 15px;
+  margin-right: 12px;
+  padding: 10px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+}
+.task-list__task:hover{
+  color:  black;
+  text-decoration: none;
+}
+.task-list__add-card{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+  height: 30px;
+  color: #5E6C84;
+  font-size: 18px;
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+.task-list__add-card:disabled{
+  background: #EBECF0;
+  cursor: default;
+}
+.task-list__add-card._hidden{
+  display: none;
+}
+.task-list__add-task-input-form{
+  display: flex;
+  flex-direction: column;
+  margin-right: 12px;
+  margin-bottom: 15px;
+}
+.task-list__add-task-input-form._hidden{
+  display: none;
+}
+.task-list__add-task-input{
+  background: white;
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+}
+.task-list__add-task-input:focus{
+  outline: none;
+}
+.task-list__add-task-input-submit{
+  align-self: flex-start;
+  margin-top: 15px;
+  background: #0079BF;
+  border-radius: 5px;
+  height: 30px;
+  width: 100px;
+  color: white;
+}
+.task-list__select{
+  cursor: pointer;
+  width: calc(100% - 12px);
+  height: 35px;
+  background: white no-repeat url("../images/select-dropdown.svg") bottom 10px right 10px;
+  border: none;
+  border-radius: 5px;
+  appearance: none;
+}
+.task-list__select._hidden{
+  display: none;
+}
+
